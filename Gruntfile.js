@@ -33,10 +33,6 @@ module.exports = function(grunt){
 
         concat: {
             dist: {
-                src: ['src/wrap_header.js', 'src/base64.js', 'src/sha1.js', 'src/md5.js', 'src/utils.js', 'src/polyfills.js', 'src/core.js', 'src/bosh.js', 'src/websocket.js', 'src/wrapper.js', 'src/wrap_footer.js'],
-                dest: '<%= pkg.name %>'
-            },
-            light: {
                 // This rule is meant to build a lighter version without Base64 nor Polyfills,
                 // by explicitly running `make strophe.light.js` -- The generated file will
                 // work in all major browsers, including MSIE starting with version 10
