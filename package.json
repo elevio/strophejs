@@ -1,5 +1,5 @@
 {
-  "name": "strophe.js",
+  "name": "@elevio/strophe",
   "description": "Strophe.js is an XMPP library for JavaScript",
   "version": "1.2.10",
   "homepage": "http://strophe.im/strophejs",
@@ -35,8 +35,8 @@
     "JC Brand (jcbrand)"
   ],
   "license": "MIT",
-  "main": "strophe.js",
-  "browser": "strophe.js",
+  "main": "strophe.min.js",
+  "browser": "strophe.min.js",
   "scripts": {
     "lint": "grunt",
     "build": "grunt",
@@ -70,5 +70,13 @@
     "phantomjs": "^2.1.7",
     "qunit-phantomjs-runner": "^2.1.0",
     "requirejs": "~2.3.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/strophe/strophejs/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "dependencies": {}
 }
