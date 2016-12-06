@@ -19,10 +19,12 @@ if (callback) {
 
 
 })(function (Strophe, build, msg, iq, pres) {
-    window.Strophe = Strophe;
-    window.$build = build;
-    window.$msg = msg;
-    window.$iq = iq;
-    window.$pres = pres;
+    module.exports = {
+        Strophe: Strophe,
+        build: build,
+        msg: msg,
+        iq: iq,
+        pres: pres,
+    }
 });
 /* jshint ignore:end */
